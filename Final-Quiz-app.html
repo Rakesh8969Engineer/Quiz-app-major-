@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final-quiz-app-of-Rakesh-Ranjan-Ray</title>
+    <link rel="stylesheet" href="./final-Quiz-app.css" />
+</head>
+
+<body>
+
+    <!--main page started-->
+    <marquee scrollamount="13">
+
+        <h2 style="background-color: white; color:red ;width:100%; border-radius: 10px; font-weight: bolder;
+            margin-top: 15px;">
+            Welcome To Rakesh_Cse.com,Just Evaluate Your Knowledge in various Fields.
+        </h2>
+
+    </marquee>
+
+    </span>
+
+    <div id="welcome-logo">
+
+        <img src="./logo-1.jpg" height="220px" width="220px" class="head-item" />
+        <h1 style="color: darkblue;" class="head-item">Hello<span id="u_name"> User!</span></h1>
+        <p class="head-item" style="font-weight: bold; font-size: large;">Enter Your Name To Continue the Quiz.</p>
+        <input type="text" onfocus="main_inp_focus_function()" placeholder="ENTER YOUR NAME" id="usern" />
+        <button id="main-btn" type="submit">ENTER</button>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <!--main page end-->
+
+    <!--second section of quiz app ,we can say this like it's a second welcome logo it have to show after hide of main page-->
+
+    <div id="second-welcome-logo">
+
+
+
+        <h1 style="color: darkblue;text-align: center ;">Select Category</h1>
+
+
+        <div id="category">
+
+
+            <button class="category-btn" id="dbmquiz" type="submit" onclick="dbms_quiz()">Database Management
+                System</button>
+            <button class="category-btn" id="web_quiz" onclick="web_quiz()" type="submit">Web Development</button>
+            <button class="category-btn" id="cn_btn" type="submit" onclick="cn_quiz()">Computer Networks</button>
+            <button class="category-btn" id="os-btn" type="submit"  onclick="os_Quiz()"   >Operating Systems</button>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <!-- ending section -- second section of quiz app ,we can say this like it's a second welcome logo it have to show after hide of main page-- and then have to hide after click on any particular category div;'s -->
+    <!-- web development quiz section(html) -->
+    <div id="web-quiz-section">
+
+        <div id="main_box">
+
+            <div id="container" style="margin-top: 30px;">
+                <marquee behavior="" direction="" scrollamount="20">
+                    <h3
+                        style="color: #e20e2ae9; font-weight: bolder;background-color: wheat; margin-bottom:20px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size:30px">
+                        Web Development quiz by Rakesh Ranjan Ray.</h3>
+                    <p id="wbscore"></p>
+                </marquee>
+                <h4 id="webtime"></h4><span id="webwarn"></span>
+                <h1 id="ques_box">This is The Sample Question</h1>
+
+                <div class="row">
+
+                    <input type="radio" value="a" id="options1" name="opt" class="ques_" />
+                    <label for="options1">Option 1</label>
+                </div>
+                <div class="row">
+                    <input type="radio" value="b" id="options2" name="opt" class="ques_" />
+                    <label for="options2">Option 2</label>
+
+                </div>
+                <div class="row">
+                    <input type="radio" value="c" id="options3" name="opt" class="ques_" />
+                    <label for="options3">Option 3</label>
+
+                </div>
+                <div class="row">
+                    <input type="radio" value="d" id="option4" name="opt" class="ques_" />
+                    <label for="option4">Option 1</label><br>
+                    <!-- <button type="submit" id="btn" onclick="submitQues()">Submit</button> -->
+
+                </div>
+                <button type="submit" id="btn" onclick="submitQues()">Submit</button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- web d quiz section(html) end here -->
+
+
+
+
+
+    <!-- <h2>dbms quiz section(html)</h2> -->
+
+    <div id="dbms_quiz">
+
+        <div class="quiz-container" id="quiz">
+
+
+            <h3 style="margin-top:20px ;">Database Management Quiz by Rakesh Ranjan Ray</h3>
+            <div class="quiz-header">
+                <h3 id="dbms_score"></h3>
+                <h3 id="dbms_timer"></h3>
+                <p id="dbms_warn"></p>
+                <h2 id="question">Question Text</h2>
+                <ul>
+                    <li>
+                        <input type="radio" name="answer" id="a" class="answer">
+                        <label for="a" id="a_text">Answer</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="answer" id="b" class="answer">
+                        <label for="b" id="b_text">Answer</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="answer" id="c" class="answer">
+                        <label for="c" id="c_text">Answer</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="answer" id="d" class="answer">
+                        <label for="d" id="d_text">Answer</label>
+                    </li>
+                </ul>
+            </div>
+            <button id="submit">Submit</button>
+        </div>
+    </div>
+    <!-- <h2>dbms quiz section(html)</h2> end here -->
+
+
+    <!-- computer network html start from here -->
+
+
+    <div id="parentofcn">
+
+        <div id="whole_cn_quiz_section">
+            <div id="cn_quiz_section">
+                <h3 style="text-align: center; background-color: rgb(255, 242, 240); border-radius: 50px;">COMPUTER
+                    NETWORKS
+                </h3>
+                <span id="cn_score"></span>
+                <div id="Question-container">
+                    <h4 id="cn_dem"></h4><span id="spp"></span>
+                    <h2 id="sample-question">This is the sample of Our Question</h2>
+                    <div class="question-row">
+                        <input type="radio" value="a" id="cn-option1" name="opt3" class="cn-ques" />
+                        <label for="cn-option1">1st Option</label>
+                    </div>
+
+                    <div class="question-row">
+                        <input type="radio" value="b" id="cn-option2" name="opt3" class="cn-ques" />
+                        <label for="cn-option1">2nd Option</label>
+
+                    </div>
+                    <div class="question-row">
+                        <input type="radio" value="c" id="cn-option3" name="opt3" class="cn-ques" />
+                        <label for="cn-option1">3rd Option</label>
+
+                    </div>
+                    <div class="question-row">
+                        <input type="radio" value="d" id="cn-option4" name="opt3" class="cn-ques" />
+                        <label for="cn-option1">4th Option</label>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <button type="submit" id="cn-btn" onclick="submit_cnQuiz()">Next Question</button>
+        </div>
+    </div>
+
+    <!-- html of cn quiz ends here  -->
+
+
+
+
+    <div id="os_quiz">
+
+        <div class="os-quiz-container" id="os-quiz">
+    
+    
+            <h3 style="margin-top:20px ;">Operating Systems Quiz by Rakesh Ranjan Ray</h3>
+            <div class="os-quiz-header">
+                <h3 id="os-score">rrr</h3>
+                <h3 id="os-timer"></h3>
+                <p id="os-warn"></p>
+                <h2 id="os-question">Question Text</h2>
+                <ul>
+                    <li>
+                        <input type="radio" name="answer"    value= "a"           id="os-a" class="os-answer">
+                        <label for="os-a" id="os_a_text">Answer</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="answer"  value= "b"          id="os-b" class="os-answer">
+                        <label for="os-b" id="os_b_text">Answer</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="answer"   value= "c"     id="os-c" class="os-answer">
+                        <label for="os-c" id="os_c_text">Answer</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="answer"  value= "d" id="os-d" class="os-answer">
+                        <label for="os-d" id="os_d_text">Answer</label>
+                    </li>
+                </ul>
+            </div>
+            <button id="os_submitBtn">Submit</button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!--focus function for main username input section-->
+    <script>
+
+        const main_inp_focus_function = () => {
+
+            document.getElementById('usern').style.backgroundColor="#00ff80";
+            document.getElementById('usern').style.height="29px";
+
+        }
+
+
+       
+
+
+
+    </script>
+
+
+
+
+
+    <script src="./final-Quiz-app.js"></script>
+</body>
+
+</html>

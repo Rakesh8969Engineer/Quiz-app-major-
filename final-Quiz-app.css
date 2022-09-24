@@ -1,0 +1,572 @@
+* {
+    padding: 0;
+    margin: 0;
+
+
+
+}
+
+body {
+    background-image: url(./schrecksee-2534484.jpg);
+
+
+}
+
+
+
+
+
+#second-welcome-logo {
+
+    height: 300px;
+    width: 750px;
+    background-color: #dacc7b;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 1px 3px 2px 5px rgb(115, 91, 100);
+    display: none;
+}
+
+#welcome-logo {
+
+    height: 100%;
+    background-color: #7bd3da;
+    width: 750px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 1px 3px 2px 5px rgb(174, 171, 16);
+
+
+}
+
+.head-item {
+
+    margin-left: 280px;
+
+    margin-top: 12px;
+}
+
+#welcome-logo input {
+
+
+    width: 650px;
+    margin-left: 10px;
+
+}
+
+#main-btn {
+    width: 70px;
+    cursor: pointer;
+
+    background-color: rgb(6, 54, 112);
+    color: white;
+}
+
+
+
+
+
+#main-btn:hover{
+
+width: 75px;
+height: 40px;
+margin-bottom: 10px;
+
+border-radius: 10px;
+
+}
+
+
+
+
+#main-btn:active{
+
+    width: 60px;
+    height: 40px;
+    margin-bottom: 10px;
+    
+    border-radius: 10px;
+    
+    }
+
+
+
+
+
+
+
+
+
+
+#category {
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+
+}
+
+.category-btn {
+    cursor: pointer;
+
+    height: 60px;
+    width: 320px;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 30px;
+    margin-top: 30px;
+
+    border: 5px solid rgb(69, 32, 40);
+    border-radius: 8px;
+    box-shadow: 8px 8px 2px 5px rgb(174, 171, 16);
+    color: blue;
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.category-btn:hover {
+    background-color: rgb(18, 168, 176);
+
+}
+
+#dbms_quiz {
+    display: none;
+
+}
+
+/****** web d css   start from downward*******/
+#container h3,
+h2 {
+
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+
+#container {
+    background-color: rgb(158, 138, 138);
+    height: 100%;
+    width: 800px;
+    margin: auto;
+    border-radius: 12px;
+    box-shadow: 1px 5px 2px 2px yellow;
+    padding: 20px 10px 10px 50px;
+
+}
+
+.row {
+    padding: 10px;
+    color: white;
+    font-family: serif;
+    width: 90%;
+    margin: 10px;
+    background-color: rgb(181, 161, 161);
+    border-radius: 10px;;
+
+
+}
+
+
+.row:hover{
+
+    padding: 12px;
+    color: rgb(188, 174, 174);
+    font-family: serif;
+    width: 90%;
+    margin: 10px;
+    background-color: rgb(81, 48, 201);
+    border-radius: 15px;;
+color: white;
+}
+
+
+
+
+
+
+
+
+
+
+#btn {
+cursor: pointer;
+    padding-bottom: 3px;
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    color: black;
+    background-image: linear-gradient(rgb(0, 140, 255), rgb(205, 205, 166));
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+
+}
+
+#web-quiz-section {
+    display: none;
+
+
+}
+
+/* css of web d quiz end here  */
+
+
+
+/* css of dbms quiz started here from downward */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+.quiz-container {
+
+
+
+    background-color: rgb(132, 107, 107);
+    height: 100%;
+    width: 800px;
+    margin: auto;
+    border-radius: 12px;
+    box-shadow: 1px 5px 2px 2px yellow;
+    padding: 20px 10px 10px 50px;
+
+
+    /* margin: auto;
+            background-color: rgb(215, 155, 155);
+            border-radius: 10px;
+            box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+            width: 650px;
+            height: 100%;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 5px 2px 1px red; */
+}
+
+.quiz-header {
+    padding: 10px;
+}
+
+h2 {
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    
+
+
+
+
+
+
+
+
+
+    
+}
+
+ul li {
+
+    font-size: 1.2rem;
+    margin: 1rem 0;
+
+
+
+
+
+    padding: 10px;
+    color: white;
+    font-family: serif;
+    width: 90%;
+    margin: 10px;
+    background-color: rgb(181, 161, 161);
+    border-radius: 10px;;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+ul li:hover {
+
+    font-size: 1.2rem;
+    margin: 1rem 0;
+
+
+
+
+
+    padding: 15px;
+    color: white;
+    font-family: serif;
+    width: 90%;
+    margin: 10px;
+    background-color: rgb(161, 161, 181);
+    border-radius: 10px;;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul li label {
+    cursor: pointer;
+}
+
+#submit {
+    background-color: #03cae4;
+    color: #fff;
+    border: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: inherit;
+    padding: 1.3rem;
+}
+
+button:hover {
+    background-color: #0417c4;
+}
+
+button:focus {
+    outline: none;
+    background-color: #44b927;
+}
+/* css of dbms quiz end here */
+ /* css of computer network started from here */
+ #cn_quiz_section {
+    background-color: rgb(169, 213, 252);
+    height: 600px;
+    width: 40%;
+    border-radius: 30px;
+    border: 2px dotted green;
+    margin: auto;
+    box-shadow: 2px 5px 1px 20px rgb(170, 206, 203);
+    display: none;
+
+}
+#cn-btn{
+display: none;
+
+}
+
+.question-row {
+    padding: 10px;
+    color: white;
+    font-family: serif;
+    width: 90%;
+    margin: 10px;
+    background-color: rgb(181, 161, 161);
+    border-radius: 10px;
+}
+
+
+
+
+
+.question-row:hover {
+    padding: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    margin: 10px;
+    background-color: rgb(162, 161, 181);
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#cn-btn {
+    cursor: pointer;
+    height: 30px;
+    width: 650px;
+    background-color: rgb(0, 102, 255);
+    border-radius: 10px;
+    color: white;
+      margin-left: 429px; 
+     /* position: fixed;
+     bottom: 0px;
+     right: 0px;
+     top:100px;
+     bottom: 10px; */
+    
+     
+    /* margin-left: 440px; */ 
+    color: white;
+    font-weight: bold;
+    position: relative;
+    /* bottom: -4px;
+    right: 10px; */
+
+}
+
+#sample-question {
+
+    display: inline-block;
+    margin-top: 10px;
+
+}
+
+#cn_score {
+
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+
+}
+/* css of computer network end */
+ /* CSS OF OPERATNG SYSTEMS QUIZ STARTED FROM HERE  */
+
+
+
+ .os-quiz-container {
+
+
+
+    background-color: rgb(132, 107, 107);
+    height: 550px;
+    width: 800px;
+    margin: auto;
+    border-radius: 12px;
+    box-shadow: 1px 5px 2px 2px yellow;
+    padding: 20px 10px 10px 50px;
+
+
+    /* margin: auto;
+    background-color: rgb(215, 155, 155);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    width: 650px;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 5px 2px 1px red; */
+}
+
+.os-quiz-header {
+    padding: 10px;
+}
+
+h2 {
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+ul li {
+
+    font-size: 1.2rem;
+    margin: 1rem 0;
+
+
+
+
+
+    padding: 10px;
+    color: white;
+    font-family: serif;
+    width: 90%;
+    margin: 10px;
+    background-color: rgb(181, 161, 161);
+    border-radius: 10px;
+    ;
+
+
+
+}
+
+ul li label {
+    cursor: pointer;
+}
+
+#os_submitBtn {
+    background-color: #03cae4;
+    color: #fff;
+    border: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: inherit;
+    padding: 1.3rem;
+}
+
+button:hover {
+    background-color: #0417c4;
+}
+
+button:focus {
+    outline: none;
+    background-color: #44b927;
+}
+#os_quiz{
+
+display: none;
+
+}
